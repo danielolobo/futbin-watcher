@@ -22,11 +22,80 @@
         <p class="view"><a href="https://github.com/Dinduks/futbin-watcher">View the Project on GitHub <small>Dinduks/futbin-watcher</small></a></p>
         <ul>
           <li><a href="https://github.com/Dinduks/futbin-watcher/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/Dinduks/futbin-watcher/tarball/master">Download <strong>TAR Ball</strong></a></li>
           <li><a href="https://github.com/Dinduks/futbin-watcher">View On <strong>GitHub</strong></a></li>
         </ul>
       </header>
       <section>
-        <p>TODO</p>
+        <h1>
+<a id="futbin-watcher" class="anchor" href="#futbin-watcher" aria-hidden="true"><span class="octicon octicon-link"></span></a>FUTBIN Watcher</h1>
+
+<p><em>FUTBIN Watcher</em> allows FIFA players to watch the price of the players of their choice in real-time.</p>
+
+<p><img src="http://www.dinduks.com/futbin-watcher/images/screenshot.png" alt="FUTBIN Watcher Screenshot"></p>
+
+<h2>
+<a id="download" class="anchor" href="#download" aria-hidden="true"><span class="octicon octicon-link"></span></a>Download</h2>
+
+<p>Click the <em>Download ZIP File</em> button above.</p>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<h3>
+<a id="1-specify-the-players-you-want-to-watch" class="anchor" href="#1-specify-the-players-you-want-to-watch" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Specify the players you want to watch</h3>
+
+<ul>
+<li>Open the <em>players_list.txt</em> file.</li>
+<li>Specify the URL of the player and your target price, <em>separated by a space</em>
+</li>
+</ul>
+
+<p>Example:</p>
+
+<pre><code>http://www.futpc.com/player/3095/marco-reus 80000
+http://www.futpc.com/player/3199/ramires 20000
+http://www.futpc.com/player/3197/filipe-lu%C3%ADs 5000
+http://www.futpc.com/player/3093/mesut-%C3%B6zil 4000
+</code></pre>
+
+<p>or </p>
+
+<pre><code>http://www.futbin.com/player/3095/marco-reus 80000
+http://www.futbin.com/player/3199/ramires 20000
+http://www.futbin.com/player/3197/filipe-lu%C3%ADs 5000
+http://www.futbin.com/player/3093/mesut-%C3%B6zil 4000
+</code></pre>
+
+<p>or</p>
+
+<pre><code>/player/3095/marco-reus 80000
+/3199/ramires 20000
+/3197/filipe-lu%C3%ADs 5000
+/3093/mesut-%C3%B6zil 4000
+</code></pre>
+
+<p>All these work.</p>
+
+<h2>
+<a id="2-run" class="anchor" href="#2-run" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Run</h2>
+
+<ul>
+<li>Open the <em>run.bat</em> (Windows) or the <em>run</em> (Mac/Linux) file with a text editor (Notepad) for example.</li>
+<li>Replace <em>pc</em> by your platform if needed (<em>ps</em> or <em>xbox</em>)</li>
+<li>If you want the prices to be refreshed, specify a refresh delay; otherwise don't put anything</li>
+<li>Save the file</li>
+<li>Double click on <em>run.bat</em> (Windows) or <em>run</em> (Mac) like a program</li>
+</ul>
+
+<p>Example of the <em>run\</em>* files:</p>
+
+<ul>
+<li>
+<code>…futbin-watcher-x.x-jar-with-dependencies.jar pc 2</code>: for PC, with the players list refreshing every 2 minutes</li>
+<li>
+<code>…futbin-watcher-x.x-jar-with-dependencies.jar xbox</code>: for Xbox, with a single time execution</li>
+</ul>
       </section>
     </div>
     <footer>
