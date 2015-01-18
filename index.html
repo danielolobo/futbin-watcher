@@ -32,8 +32,14 @@
         <h1>
 <a id="futbin-watcher" class="anchor" href="#futbin-watcher" aria-hidden="true"><span class="octicon octicon-link"></span></a>FUTBIN Watcher</h1>
 
-<p><em>FUTBIN Watcher</em> allows you to monitor the price of the players you'd like to buy, and compare it with the price you're ready to pay, in real-time.</p>
-<p>It's particularly useful during crashes as you don't want to miss when the prices drop.</p>
+<p><em>FUTBIN Watcher</em> provides an automatic, fast, and intuitive way to monitor FIFA's market.<br>
+It allows to:
+<ul>
+        <li>monitor the price of the players you'd like to buy, and compare it with the price you're ready to pay for them</li>
+        <li>monitor the price of the players you'd like to sell, and compare it with the price you're ready to sell them for</li>
+</ul>
+All this in real-time.
+</p>
 
 <p><img src="http://www.dinduks.com/futbin-watcher/images/screenshot.png" alt="FUTBIN Watcher Screenshot"></p>
 
@@ -56,7 +62,7 @@
 
 <ul>
 <li>Open the <em>players_list.txt</em> file.</li>
-<li>Specify the action you want to do (*buy* or *sell*), followed by the URL of the player, then your target price, <em>separated by a space</em></li>
+<li>Specify the action you want to do (<em>buy</em> or <em>sell</em>), followed by the URL of the player, then your target price, <em>separated by a space</em></li>
 </ul>
 
 <p>Example:</p>
@@ -99,10 +105,9 @@ sell /3093/mesut-%C3%B6zil for 4000
 <p>Example of the <em>run</em>* files:</p>
 
 <ul>
-<li>
-<code>…futbin-watcher-x.x-jar-with-dependencies.jar pc 2</code>: for PC, with the players list refreshing every 2 minutes</li>
-<li>
-<code>…futbin-watcher-x.x-jar-with-dependencies.jar xbox</code>: for Xbox, with a single time execution</li>
+<li>For PC, with the players list refreshing every 5 minutes: <pre><code>…futbin-watcher-x.x-jar-with-dependencies.jar pc 5</code></pre></li>
+<li>For Xbox, with the players list refreshing every 2 minutes (default value):
+<pre><code>…futbin-watcher-x.x-jar-with-dependencies.jar xbox</code></pre></li>
 </ul>
       </section>
       <footer>
@@ -110,6 +115,6 @@ sell /3093/mesut-%C3%B6zil for 4000
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
+
   </body>
 </html>
