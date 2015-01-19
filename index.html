@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>FUTBIN Watcher by Dinduks</title>
@@ -12,109 +12,109 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
+</head>
+<body>
+<div class="wrapper">
+    <header>
         <h1 class="header">FUTBIN Watcher</h1>
         <p class="header"></p>
 
         <ul>
-          <li class="download"><a class="buttons" href="https://github.com/Dinduks/futbin-watcher/releases">Download</a></li>
-          <li><a class="buttons github" href="https://github.com/Dinduks/futbin-watcher">View On GitHub</a></li>
+            <li class="download"><a class="buttons" href="https://github.com/Dinduks/futbin-watcher/releases">Download</a></li>
+            <li><a class="buttons github" href="https://github.com/Dinduks/futbin-watcher">View On GitHub</a></li>
         </ul>
 
         <p class="header">This project is maintained by <a class="header name" href="https://github.com/Dinduks">Dinduks</a></p>
 
 
-      </header>
-      <section>
+    </header>
+    <section>
         <h1>
-<a id="futbin-watcher" class="anchor" href="#futbin-watcher" aria-hidden="true"><span class="octicon octicon-link"></span></a>FUTBIN Watcher</h1>
+            <a id="futbin-watcher" class="anchor" href="#futbin-watcher" aria-hidden="true"><span class="octicon octicon-link"></span></a>FUTBIN Watcher</h1>
 
-<p><em>FUTBIN Watcher</em> provides an automatic, fast, and intuitive way to monitor FIFA's market.<br>
-It allows to:
-<ul>
-        <li>monitor the price of the players you'd like to buy, and compare it with the price you're ready to pay for them</li>
-        <li>monitor the price of the players you'd like to sell, and compare it with the price you're ready to sell them for</li>
-</ul>
-All this in real-time.
-</p>
+        <p><em>FUTBIN Watcher</em> provides an automatic, fast, and intuitive way to monitor FIFA's market.<br>
+            It allows to:
+        <ul>
+            <li>monitor the price of the players you'd like to buy, and compare it with the price you're ready to pay for them</li>
+            <li>monitor the price of the players you'd like to sell, and compare it with the price you're ready to sell them for</li>
+        </ul>
+        All this in real-time.
+        </p>
 
-<p><img src="http://www.dinduks.com/futbin-watcher/images/screenshot.png" alt="FUTBIN Watcher Screenshot"></p>
+        <p><img src="http://www.dinduks.com/futbin-watcher/images/screenshot.png" alt="FUTBIN Watcher Screenshot"></p>
 
-<h2>
-<a id="prerequisites" class="anchor" href="#prerequisites" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prerequisites</h2>
+        <h2>
+            <a id="prerequisites" class="anchor" href="#prerequisites" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prerequisites</h2>
 
-<p>FUTBIN Watcher needs Java to run. Java is available on most computers, but if that is not the case for you, please visit this page:
-<a href="https://www.java.com/en/download/">Free Java Download</a>.</p>
+        <p>FUTBIN Watcher needs Java to run. Java is available on most computers, but if that is not the case for you, please visit this page:
+            <a href="https://www.java.com/en/download/">Free Java Download</a>.</p>
 
-<h2>
-<a id="download" class="anchor" href="#download" aria-hidden="true"><span class="octicon octicon-link"></span></a>Download</h2>
+        <h2>
+            <a id="download" class="anchor" href="#download" aria-hidden="true"><span class="octicon octicon-link"></span></a>Download</h2>
 
-<p>Click the <em>Download</em> button on the left.</p>
+        <p>Click the <em>Download</em> button on the left.</p>
 
-<h2>
-<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+        <h2>
+            <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
 
-<h3>
-<a id="1-specify-the-players-you-want-to-watch" class="anchor" href="#1-specify-the-players-you-want-to-watch" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Specify the players you want to watch</h3>
+        <h3>
+            <a id="1-specify-the-players-you-want-to-watch" class="anchor" href="#1-specify-the-players-you-want-to-watch" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Specify the players you want to watch</h3>
 
-<ul>
-<li>Open the <em>players_list.txt</em> file.</li>
-<li>Specify the action you want to do (<em>buy</em> or <em>sell</em>), followed by the URL of the player, then your target price, <em>separated by a space</em></li>
-</ul>
+        <ul>
+            <li>Open the <em>players_list.txt</em> file.</li>
+            <li>Specify the action you want to do (<em>buy</em> or <em>sell</em>), followed by the URL of the player, then your target price, <em>separated by a space</em></li>
+        </ul>
 
-<p>Example:</p>
+        <p>Example:</p>
 
 <pre><code>buy http://www.futpc.com/player/3095/marco-reus for 80000
-buy http://www.futpc.com/player/3199/ramires buy 20000
-sell http://www.futpc.com/player/3197/filipe-lu%C3%ADs for 5000
-sell http://www.futpc.com/player/3093/mesut-%C3%B6zil for 4000
+    buy http://www.futpc.com/player/3199/ramires buy 20000
+    sell http://www.futpc.com/player/3197/filipe-lu%C3%ADs for 5000
+    sell http://www.futpc.com/player/3093/mesut-%C3%B6zil for 4000
 </code></pre>
 
-<p>or </p>
+        <p>or </p>
 
 <pre><code>buy http://www.futbin.com/player/3095/marco-reus for 80000
-buy http://www.futbin.com/player/3199/ramires for 20000
-sell http://www.futbin.com/player/3197/filipe-lu%C3%ADs for 5000
-sell http://www.futbin.com/player/3093/mesut-%C3%B6zil for 4000
+    buy http://www.futbin.com/player/3199/ramires for 20000
+    sell http://www.futbin.com/player/3197/filipe-lu%C3%ADs for 5000
+    sell http://www.futbin.com/player/3093/mesut-%C3%B6zil for 4000
 </code></pre>
 
-<p>or</p>
+        <p>or</p>
 
 <pre><code>buy /player/3095/marco-reus for 80000
-buy /3199/ramires for 20000
-sell /3197/filipe-lu%C3%ADs for 5000
-sell /3093/mesut-%C3%B6zil for 4000
+    buy /3199/ramires for 20000
+    sell /3197/filipe-lu%C3%ADs for 5000
+    sell /3093/mesut-%C3%B6zil for 4000
 </code></pre>
 
-<p>All these work.</p>
+        <p>All these work.</p>
 
-<h2>
-<a id="2-run" class="anchor" href="#2-run" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Run</h2>
+        <h2>
+            <a id="2-run" class="anchor" href="#2-run" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Run</h2>
 
-<ul>
-<li>Open the <em>run.bat</em> (Windows) or the <em>run</em> (Mac/Linux) file with a text editor (Notepad) for example.</li>
-<li>Replace <em>pc</em> by your platform if needed (<em>ps</em> or <em>xbox</em>)</li>
-<li>If you want the prices to be refreshed, specify a refresh delay; otherwise don't put anything</li>
-<li>Save the file</li>
-<li>Double click on <em>run.bat</em> (Windows) or <em>run</em> (Mac) like a program</li>
-</ul>
+        <ul>
+            <li>Open the <em>run.bat</em> (Windows) or the <em>run</em> (Mac/Linux) file with a text editor (Notepad) for example.</li>
+            <li>Replace <em>pc</em> by your platform if needed (<em>ps</em> or <em>xbox</em>)</li>
+            <li>If you want the prices to be refreshed, specify a refresh delay; otherwise don't put anything</li>
+            <li>Save the file</li>
+            <li>Double click on <em>run.bat</em> (Windows) or <em>run</em> (Mac) like a program</li>
+        </ul>
 
-<p>Example of the <em>run</em>* files:</p>
+        <p>Example of the <em>run</em>* files:</p>
 
-<ul>
-<li>For PC, with the players list refreshing every 5 minutes: <pre><code>…futbin-watcher-x.x-jar-with-dependencies.jar pc 5</code></pre></li>
-<li>For Xbox, with the players list refreshing every 2 minutes (default value):
-<pre><code>…futbin-watcher-x.x-jar-with-dependencies.jar xbox</code></pre></li>
-</ul>
-      </section>
-      <footer>
+        <ul>
+            <li>For PC, with the players list refreshing every 5 minutes: <pre><code>…futbin-watcher-x.x-jar-with-dependencies.jar pc 5</code></pre></li>
+            <li>For Xbox, with the players list refreshing every 2 minutes (default value):
+                <pre><code>…futbin-watcher-x.x-jar-with-dependencies.jar xbox</code></pre></li>
+        </ul>
+    </section>
+    <footer>
         <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    </footer>
+</div>
+<!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
-  </body>
+</body>
 </html>
